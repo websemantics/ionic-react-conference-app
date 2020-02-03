@@ -1,13 +1,13 @@
 ```
-╭──╮ ╭─────●╮ ╭──┬───╮ ╭──╮ ╭──────╮
-├──┤ │  ╭╮  │ │      │ ├──┤ │  ╭───╯
-│  │ │  ╰╯  │ │  ╭╮  │ │  │ │  ╰───╮
-╰──╯ ╰──────╯ ╰──╯╰──╯ ╰──╯ ╰──────╯
-░░░▒▒▓█ React Conference App █▓▒▒░░░
+╭──╮  ╭─────●╮  ╭──┬───╮  ╭──╮  ╭──────╮
+├──┤  │  ╭╮  │  │      │  ├──┤  │ `╭───╯
+│  │  │  ╰╯  │  │  ╭╮  │  │  │  │  ╰───╮
+╰──╯  ╰──────╯  ╰──╯╰──╯  ╰──╯  ╰──────╯
+░░░▒▒▓█  React  Conference  App  █▓▒▒░░░
 ```
 > A conference app built with Ionic React in JavaScript without a build step.
 
-[![Demo](https://img.shields.io/badge/Hyperapp%20demo-%E2%86%92-9D6EB3.svg?style=flat-square)](https://websemantics.github.io/ionic-react-conference-app/public/index.html)
+[![Demo](https://img.shields.io/badge/Demo-%E2%86%92-9D6EB3.svg?style=flat-square)](https://websemantics.github.io/ionic-react-conference-app/public/index.html)
 
 ## Overview
 
