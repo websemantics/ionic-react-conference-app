@@ -1,0 +1,13 @@
+#login-page .login-logo, #signup-page .login-logo, #support-page .login-logo {
+  padding: 20px 0;
+  min-height: 200px;
+  text-align: center;
+}
+
+#login-page .login-logo img, #signup-page .login-logo img, #support-page .login-logo img {
+  max-width: 150px;
+}
+
+#login-page .list, #signup-page .list, #support-page .list {
+  margin-bottom: 0;
+}

@@ -1,0 +1,32 @@
+/* Core CSS required for Ionic components to work properly */
+@import "../../../node_modules/@ionic/react/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "../../../node_modules/@ionic/react/css/normalize.css";
+@import "../../../node_modules/@ionic/react/css/structure.css";
+@import "../../../node_modules/@ionic/react/css/typography.css";
+
+/* Optional CSS utils that can be commented out */
+@import "../../../node_modules/@ionic/react/css/padding.css";
+@import "../../../node_modules/@ionic/react/css/float-elements.css";
+@import "../../../node_modules/@ionic/react/css/text-alignment.css";
+@import "../../../node_modules/@ionic/react/css/text-transformation.css";
+@import "../../../node_modules/@ionic/react/css/flex-utils.css";
+@import "../../../node_modules/@ionic/react/css/display.css";
+
+/* Theme variables */
+@import "./variables.css";
+
+/* App pages */
+@import "./pages/About.css";
+@import "./pages/Account.css";
+@import "./pages/Login.css";
+@import "./pages/MapView.css";
+@import "./pages/SchedulePage.css";
+@import "./pages/SessionDetail.css";
+@import "./pages/SpeakerDetail.css";
+@import "./pages/SpeakerList.css";
+@import "./pages/Tutorial.css";
+
+/* App components */
+@import "./components/SessionListFilter.css";

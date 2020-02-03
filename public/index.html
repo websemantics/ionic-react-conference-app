@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Conference</title>
+
+  <base href="./" />
+
+  <meta name="viewport"
+    content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="msapplication-tap-highlight" content="no" />
+
+  <link rel="shortcut icon" type="image/png" href="./assets/icon/favicon.png" />
+
+  <!-- add to home screen for ios -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-title" content="Conference" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <link rel="stylesheet" href="./assets/theme/index.css" />
+</head>
+
+<body>
+  <div id="root"></div>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAmAwkv8-x2I--ne-NtA3C_4E_-xLCsFJs" async defer></script>
+  <script src="../node_modules/react/umd/react.production.min.js"></script>
+  <script src="../node_modules/react-dom/umd/react-dom.production.min.js"></script>
+  <script src="../node_modules/react-router/umd/react-router.min.js"></script>
+  <script src="../node_modules/react-router-dom/umd/react-router-dom.min.js"></script>
+  <script type="importmap">
+    {
+      "imports": {
+        "tslib": "../node_modules/tslib/tslib.es6.js",
+        "react": "../vendor/react.js",
+        "react-dom": "../vendor/react-dom.js",
+        "react-router":"../vendor/react-router.js",
+        "react-router-dom": "../vendor/react-router.js",
+        "ionicons/icons": "../vendor/ionicons.js",
+        "ionicons": "../node_modules/ionicons/dist/index.mjs",
+        "@ionic/react": "../node_modules/@ionic/react/dist/index.esm.js",
+        "@ionic/react-core": "../node_modules/@ionic/react-core/dist/index.esm.js",
+        "@ionic/core": "../node_modules/@ionic/core/dist/index.mjs",
+        "@ionic/core/loader": "../node_modules/@ionic/core/loader/index.es2017.mjs",
+        "@ionic/react-router": "../node_modules/@ionic/react-router/dist/index.esm.js",
+        "date-fns": "../node_modules/date-fns/esm/index.js",
+        "reselect": "../node_modules/reselect/src/index.js",
+        "@capacitor/core": "../node_modules/@capacitor/core/dist/esm/index.js",
+        "../node_modules/@capacitor/core/dist/esm/core-plugin-definitions": "../node_modules/@capacitor/core/dist/esm/core-plugin-definitions.js",
+        "../node_modules/@capacitor/core/dist/esm/global": "../node_modules/@capacitor/core/dist/esm/global.js",
+        "../node_modules/@capacitor/core/dist/esm/web-plugins": "../node_modules/@capacitor/core/dist/esm/web-plugins.js",
+        "../node_modules/@capacitor/core/dist/esm/web/index": "../node_modules/@capacitor/core/dist/esm/web/index.js",
+        "../node_modules/@capacitor/core/dist/esm/web-runtime": "../node_modules/@capacitor/core/dist/esm/web-runtime.js",
+        "../node_modules/@capacitor/core/dist/esm/web/app": "../node_modules/@capacitor/core/dist/esm/web/app.js",
+        "../node_modules/@capacitor/core/dist/esm/web/accessibility": "../node_modules/@capacitor/core/dist/esm/web/accessibility.js",
+        "../node_modules/@capacitor/core/dist/esm/web/browser": "../node_modules/@capacitor/core/dist/esm/web/browser.js",
+        "../node_modules/@capacitor/core/dist/esm/web/camera": "../node_modules/@capacitor/core/dist/esm/web/camera.js",
+        "../node_modules/@capacitor/core/dist/esm/web/clipboard": "../node_modules/@capacitor/core/dist/esm/web/clipboard.js",
+        "../node_modules/@capacitor/core/dist/esm/web/filesystem": "../node_modules/@capacitor/core/dist/esm/web/filesystem.js",
+        "../node_modules/@capacitor/core/dist/esm/web/device": "../node_modules/@capacitor/core/dist/esm/web/device.js",
+        "../node_modules/@capacitor/core/dist/esm/web/geolocation": "../node_modules/@capacitor/core/dist/esm/web/geolocation.js",
+        "../node_modules/@capacitor/core/dist/esm/web/local-notifications": "../node_modules/@capacitor/core/dist/esm/web/local-notifications.js",
+        "../node_modules/@capacitor/core/dist/esm/web/share": "../node_modules/@capacitor/core/dist/esm/web/share.js",
+        "../node_modules/@capacitor/core/dist/esm/web/motion": "../node_modules/@capacitor/core/dist/esm/web/motion.js",
+        "../node_modules/@capacitor/core/dist/esm/web/modals": "../node_modules/@capacitor/core/dist/esm/web/modals.js",
+        "../node_modules/@capacitor/core/dist/esm/web/network": "../node_modules/@capacitor/core/dist/esm/web/network.js",
+        "../node_modules/@capacitor/core/dist/esm/web/permissions": "../node_modules/@capacitor/core/dist/esm/web/permissions.js",
+        "../node_modules/@capacitor/core/dist/esm/web/storage": "../node_modules/@capacitor/core/dist/esm/web/storage.js",
+        "../node_modules/@capacitor/core/dist/esm/web/toast": "../node_modules/@capacitor/core/dist/esm/web/toast.js",
+        "../node_modules/@capacitor/core/dist/esm/web/splash-screen": "../node_modules/@capacitor/core/dist/esm/web/splash-screen.js",
+        "../node_modules/@capacitor/core/dist/esm/util": "../node_modules/@capacitor/core/dist/esm/util.js"
+      }
+    }
+  </script>
+  <script>var process = { env: { NODE_ENV: 'development', PUBLIC_URL: '' } };</script>
+  <script type="module" src="../src/index.js"></script>
+</body>
+
+</html>
+<!-- "@capacitor/core": "../vendor/capacitor.js", -->

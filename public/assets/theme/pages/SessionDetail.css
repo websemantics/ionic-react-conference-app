@@ -1,0 +1,71 @@
+#session-detail-page .session-track-ionic {
+  color: var(--ion-color-primary);
+}
+
+#session-detail-page .session-track-angular {
+  color: var(--ion-color-angular);
+}
+
+#session-detail-page .session-track-communication {
+  color: var(--ion-color-communication);
+}
+
+#session-detail-page .session-track-tooling {
+  color: var(--ion-color-tooling);
+}
+
+#session-detail-page .session-track-services {
+  color: var(--ion-color-services);
+}
+
+#session-detail-page .session-track-design {
+  color: var(--ion-color-design);
+}
+
+#session-detail-page .session-track-workshop {
+  color: var(--ion-color-workshop);
+}
+
+#session-detail-page .session-track-food {
+  color: var(--ion-color-food);
+}
+
+#session-detail-page .session-track-documentation {
+  color: var(--ion-color-documentation);
+}
+
+#session-detail-page .session-track-navigation {
+  color: var(--ion-color-navigation);
+}
+
+#session-detail-page .show-favorite {
+  position: relative;
+}
+
+#session-detail-page .icon-heart-empty {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  transform: scale(1);
+  transition: transform 0.3s ease;
+}
+
+#session-detail-page .icon-heart {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  transform: scale(0);
+  transition: transform 0.3s ease;
+}
+
+#session-detail-page .show-favorite .icon-heart {
+  transform: scale(1);
+}
+
+#session-detail-page .show-favorite .icon-heart-empty {
+  transform: scale(0);
+}
+
+#session-detail-page h1 {
+  margin: 0;
+}
