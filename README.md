@@ -15,6 +15,14 @@ This app is the JavaScript transpile of [Ionic React Conference Demo App](https:
 
 <img src="public/assets/img/screenshot.png" alt="Conference app">
 
+## Similar Apps
+
+* [Photo Gallery](https://github.com/websemantics/ionic-react-photo-gallery-app)
+* [Side Menu Starter](https://github.com/websemantics/ionic-react-sidemenu-app)
+* [Tabs Starter](https://github.com/websemantics/ionic-react-tabs-app)
+* [Blank Starter](https://github.com/websemantics/ionic-react-blank-app)
+* [Test App](https://github.com/websemantics/ionic-react-test-app)
+
 ## Support
 
 Need help or have a question? post a questions at [StackOverflow](https://stackoverflow.com/questions/tagged/ionic-react-conference-app+web+semantics)
